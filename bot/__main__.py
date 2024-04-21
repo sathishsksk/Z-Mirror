@@ -237,7 +237,7 @@ async def main():
     app.router.add_route('GET', '/health', health_check)
     runner = web.AppRunner(app)
     await runner.setup()
-    site = web.TCPSite(runner, '0.0.0.0', 8080)
+    site = web.TCPSite(runner, '0.0.0.0', 8888)  # Changed port to 8888
     await site.start()
 
 bot.loop.run_until_complete(main())
