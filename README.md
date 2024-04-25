@@ -1,1 +1,1 @@
-no edit zmirror for torrent lover tgbot
+no edit zmirror for newbot tgbot
