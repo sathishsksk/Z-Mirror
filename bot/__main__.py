@@ -240,6 +240,8 @@ async def main():
     site = web.TCPSite(runner, '0.0.0.0', 8888)  # Changed port to 8888
     await site.start()
 
-bot.loop.run_until_complete(main())
-bot.loop.run_forever()
+    bot.loop.run_forever()
+
+if __name__ == '__main__':
+    bot.loop.run_until_complete(main())
 
